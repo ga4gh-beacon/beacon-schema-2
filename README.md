@@ -1,4 +1,4 @@
-# Beacon schema v2
+# Beacon v2 Schema
 
 Current version is Draft 4. Note that Beacon v2 is still [under development](https://github.com/ga4gh-beacon/beacon-v2-Models) and needs to be approved by the [GA4GH](https://www.ga4gh.org/).
 
