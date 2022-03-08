@@ -1,4 +1,4 @@
-# Welcome to the Beacon v2
+# Welcome to the Beacon v2 Documentation
 
 !!! Important "Under Development"
 
