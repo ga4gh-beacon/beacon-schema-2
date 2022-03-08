@@ -13,24 +13,28 @@ markdown_extensions:
 nav:
     - Introduction to Beacon v2: index.md
     - Roles of Documentation Consumers: 
-          - At a glance: roles.md
+        - At a glance: roles.md
     - Implementer:
-          - Implementer: implementer.md
-          - Framework: framework.md         
-          - Models: models.md 
+        - Implementer: implementer.md
+        - Framework: framework.md         
+        - Models: models.md 
     - Deployer: https://b2ri-documentation.readthedocs.io/en/latest/
     - User: user.md
     - Stakeholder: stakeholder.md
     - Schemas (Draft v4):
-          - Analyses: schemas-md/analyses_defaultSchema.md
-          - Biosamples: schemas-md/biosamples_defaultSchema.md
-          - Cohorts: schemas-md/cohorts_defaultSchema.md
-          - Datasets: schemas-md/datasets_defaultSchema.md
-          - Genomic Variations: schemas-md/genomicVariations_defaultSchema.md
-          - Individuals: schemas-md/individuals_defaultSchema.md
-          - Runs: schemas-md/runs_defaultSchema.md
+        - Analyses: schemas-md/analyses_defaultSchema.md
+        - Biosamples: schemas-md/biosamples_defaultSchema.md
+        - Cohorts: schemas-md/cohorts_defaultSchema.md
+        - Datasets: schemas-md/datasets_defaultSchema.md
+        - Genomic Variations: schemas-md/genomicVariations_defaultSchema.md
+        - Individuals: schemas-md/individuals_defaultSchema.md
+        - Runs: schemas-md/runs_defaultSchema.md
     - Beacon Terms:
-          - Terms List: schemas-md/beacon_terms.md
+        - Terms List: schemas-md/beacon_terms.md
+    - External Links:
+        - Beacon Project: http://beacon-project.io
+        - Github Repositories: https://github.com/ga4gh-beacon/
+
 
 theme: readthedocs
 
