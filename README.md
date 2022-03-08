@@ -1,21 +1,33 @@
 # Beacon v2 Schema
 
-Current version is Draft 4. Note that Beacon v2 is still [under development](https://github.com/ga4gh-beacon/beacon-v2-Models) and needs to be approved by the [GA4GH](https://www.ga4gh.org/).
+Note that Beacon v2 is still [under development](https://github.com/ga4gh-beacon/beacon-v2-Models) and needs to be approved by the [GA4GH](https://www.ga4gh.org/).
 
-# Documentation
+## Documentation
 
-The core documentation can be found in this [Read The Docs](https://beacon-schema-2.readthedocs.io/en/latest).
+The core documentation (under development) can be found in this [Read The Docs](https://beacon-schema-2.readthedocs.io/en/latest).
 
-The documentation in this README is developed for contents creators of the beacon v2 model. 
+## Scope and Purpose
 
-# Scope and Purpose
+With growing interest from the community in the implementation of the Beacon protocol into resources and workflows, the major 2.0 release scheduled for Spring 2022 will introduce new features which were considered important by the community such as:
 
-With growing interest from the community in the implementation of the Beacon protocol into resources and workflows, the next major release 2.0 will introduce new features which were considered important by the community: Queries by type: The Beacon will define different sets of attributes for requests and responses depending on the type of query; e.g. a specific request and response to return variants within a region in a chromosome (wildcard/region queries) or to get a list of samples related to a phenotype, provided the required authentication or authorization.
+* extended and clearer specified genomic variation queries, including wildcard and region queries (i.e. returning variants within a genomic/chromosomal region)
+* get a list of samples related to a phenotype, provided the required authentication or authorization
+* powerful _filters_, primarily based on CURIE terms for ontologies and references, including options to control the use of hierarchical terms or the precision of term matching
+* scoped data delivery (e.g. matched variant details or sample information) as part of Beacon responses or through _handover_ protocols
 
-Filters: The next major version of Beacon will include a feature to filter the matched variants by additional conditions on e.g. sample specific or technical information (e.g., associated phenotypes, assay type). Here the utilization of ontologies will be encouraged, with alternative use of custom vocabularies for local applications. Schema versions: Given that new query types will return differing responses (e.g., variant annotations, pointers to data delivery protocols), a mechanism will be implemented to reference internal or external data schemas that describe the content of the Beacon response (e.g., returning variant information using "GA4GH Variant Representation v1"). Access levels: Beacon administrators will be able to specify the level of access (public, registered or controlled) for each field in the Beacon response and even refine this definition by dataset, if these diverge from the default values. This is applicable also to the query types supported (genomic variants, sample lists, etc...).
+### Beacon filters
 
+Version 2 of Beacon allows to filter matched variants by additional conditions on e.g. sample specific or technical information (e.g., associated phenotypes, assay type). Here the utilization of ontologies is being encouraged, with alternative use of custom vocabularies for local applications.
 
-# Usage
+### Schema based responses
+
+Given that new query types will return differing responses (e.g., variant annotations, pointers to data delivery protocols), a mechanism has been implemented to reference internal or external data schemas that describe the content of the Beacon response (e.g., returning variant information using "GA4GH Variant Representation v1").
+
+### Access levels
+
+Beacon administrators will be able to specify the level of access (public, registered or controlled) for each field in the Beacon response and even refine this definition by dataset, if these diverge from the default values. This is applicable also to the query types supported (genomic variants, sample lists, etc...).
+
+## Usage
 
 The Beacon v2 Model is defined using [JSON](http://json-schema.org) schemas.
 
@@ -23,7 +35,7 @@ The latest JSON schemas can be found [here](https://github.com/ga4gh-beacon/beac
 
 Every time that this repository is updated, all the contents from [docs/](https://github.com/mrueda/beacon-schema-2/tree/main/docs) are also automatically updated in the [Read The Docs](https://beacon-schema-2.readthedocs.io/en/latest) documentation. This addresses the issue of having multiples copies of the same document (e.g. Word, Latex, YAML) spread around the web.
 
-The [Read The Docs](https://beacon-schema-2.readthedocs.io/en/latest) documentation is created with [MkDocs](https://www.mkdocs.org/) that works with Markdown format. Thus, we enforce creators to modify directly the Markdown files. Note that there exist tools such as [Pandoc](https://pandoc.org/) that allow transforming standard text formats to Markdown. Pandoc, however, does not transform YAML/JSON to Markdown.
+The [Read The Docs](https://beacon-schema-2.readthedocs.io/en/latest) documentation is created with [MkDocs](https://www.mkdocs.org/) based on documentation files in [Markdown](https://en.wikipedia.org/wiki/Markdown) format. Note that tools such as [Pandoc](https://pandoc.org/) that allow transforming other text formats to Markdown. Pandoc, however, does not transform YAML/JSON to Markdown.
 
 # Updating Beacon v2 Models JSON-schemas
 
