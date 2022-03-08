@@ -16,8 +16,8 @@ nav:
           - At a glance: roles.md
     - Implementer:
           - Implementer: implementer.md
-          - Framework: framework_README.md         
-          - Models: models_README.md 
+          - Framework: framework.md         
+          - Models: models.md 
     - Deployer: https://b2ri-documentation.readthedocs.io/en/latest/
     - User: user.md
     - Stakeholder: stakeholder.md
