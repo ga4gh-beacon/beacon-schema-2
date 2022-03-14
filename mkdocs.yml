@@ -16,6 +16,8 @@ nav:
     - Roles of Documentation Consumers: 
         - At a glance: roles.md
     - Beacon Flavours: beacon-flavours.md
+    - Beacon Queries:
+        - Query URL Examples: rest-api.md
     - Implement & Deploy a Beacon:
         - Deployment Options: implement-and-deploy.md
         - Beacon Reference Implementation: "https://b2ri-documentation.readthedocs.io/en/latest/"
