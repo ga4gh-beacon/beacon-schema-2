@@ -23,8 +23,6 @@ nav:
         - Models: models.md
         - Filters: filters.md
         - Genomic Queries: variant-queries.md
-    # - User: user.md
-    # - Stakeholder: stakeholder.md
     - Schemas:
         - Analyses: schemas-md/analyses_defaultSchema.md
         - Biosamples: schemas-md/biosamples_defaultSchema.md
