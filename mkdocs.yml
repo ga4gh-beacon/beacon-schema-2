@@ -14,14 +14,13 @@ nav:
     - Introduction to Beacon v2: index.md
     - Roles of Documentation Consumers: 
         - At a glance: roles.md
-    - Implementer:
-        - Implementer: implementer.md
+    - Implement & Deploy a Beacon: implement-and-deploy.md
+        - Beacon Reference Implementation: https://b2ri-documentation.readthedocs.io/en/latest/
         - Framework: framework.md         
         - Models: models.md 
-    - Deployer: https://b2ri-documentation.readthedocs.io/en/latest/
     - User: user.md
     - Stakeholder: stakeholder.md
-    - Schemas (Draft v4):
+    - Schemas:
         - Analyses: schemas-md/analyses_defaultSchema.md
         - Biosamples: schemas-md/biosamples_defaultSchema.md
         - Cohorts: schemas-md/cohorts_defaultSchema.md
