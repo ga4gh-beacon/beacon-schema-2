@@ -18,8 +18,8 @@ nav:
         - Beacon Reference Implementation: https://b2ri-documentation.readthedocs.io/en/latest/
         - Framework: framework.md         
         - Models: models.md 
-    - User: user.md
-    - Stakeholder: stakeholder.md
+    # - User: user.md
+    # - Stakeholder: stakeholder.md
     - Schemas:
         - Analyses: schemas-md/analyses_defaultSchema.md
         - Biosamples: schemas-md/biosamples_defaultSchema.md
